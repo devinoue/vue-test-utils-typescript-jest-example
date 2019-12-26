@@ -1,4 +1,5 @@
-# 11vue-typescript-sample
+# vue-typescript-jest-pattern
+Vue TypeScript(クラス構文)によるJestとvue/test-utilsのパターン集
 
 ## Project setup
 ```
