@@ -1,5 +1,5 @@
 <template>
-  <div><Child /></div>
+  <div><Child :msg="msg" @input-text="inputText" /></div>
 </template>
 
 <script lang="ts">
@@ -11,7 +11,13 @@ import Child from './Child.vue'
     Child,
   },
 })
-export default class Parent extends Vue {}
+export default class Parent extends Vue {
+  msg: string = 'Ohayo'
+
+  inputText(payload: string) {
+    alert(payload)
+  }
+}
 </script>
 
 <style scoped></style>
