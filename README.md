@@ -1,4 +1,6 @@
 # vue-typescript-jest-pattern
+This is based on the vue-cli 3.
+
 Vue TypeScript(クラス構文)によるJestとvue/test-utilsのパターン集
 
 ## Project setup
